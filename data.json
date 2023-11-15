@@ -1,0 +1,793 @@
+[
+  {
+    "pid": "1",
+    "image": "https://i.ibb.co/M8m0gRw/core-i9-14900k-01-500x500.webp",
+    "productName": "Intel Core i9-10900K",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 499.99,
+    "description": "High-performance processor for gaming and multitasking.",
+    "keyFeatures": {
+      "brand": "Intel",
+      "model": "Core i9-10900K",
+      "Specification": "10 cores, 20 threads",
+      "socketType": "LGA1200",
+      "clockSpeed": "3.7 GHz base, up to 5.3 GHz"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.3,
+    "reviews": [
+      {
+        "user": "User123",
+        "rating": 5,
+        "comment": "Excellent performance for gaming."
+      },
+      {
+        "user": "TechGuru22",
+        "rating": 4,
+        "comment": "Great processor, slightly high on power consumption."
+      }
+    ]
+  },
+  {
+    "pid": "2",
+    "image": "https://i.ibb.co/9N3WXDq/ryzen-5-5600g-500x500.jpg",
+    "productName": "AMD Ryzen 9 5900X",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 549.99,
+    "description": "Powerful CPU for content creation and high-end gaming.",
+    "keyFeatures": {
+      "brand": "AMD",
+      "model": "Ryzen 9 5900X",
+      "Specification": "12 cores, 24 threads",
+      "socketType": "AM4",
+      "clockSpeed": "3.7 GHz base, up to 4.8 GHz"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "user": "ContentCreator123",
+        "rating": 5,
+        "comment": "Incredible performance in rendering tasks."
+      },
+      {
+        "user": "GamingPro456",
+        "rating": 4.5,
+        "comment": "Handles gaming and multitasking like a breeze."
+      }
+    ]
+  },
+  {
+    "pid": "3",
+    "image": "https://i.ibb.co/C9FS85d/amd-ryzen-7-5700x-01-500x500.jpg",
+    "productName": "AMD Ryzen 7 5800X",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 399.99,
+    "description": "High-performance processor with great multitasking capabilities.",
+    "keyFeatures": {
+      "brand": "AMD",
+      "model": "Ryzen 7 5800X",
+      "Specification": "8 cores, 16 threads",
+      "socketType": "AM4",
+      "clockSpeed": "3.8 GHz base, up to 4.7 GHz"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.4,
+    "reviews": [
+      {
+        "user": "TechEnthusiast88",
+        "rating": 4.5,
+        "comment": "Impressive performance for gaming and productivity tasks."
+      },
+      {
+        "user": "Multitasker99",
+        "rating": 4.7,
+        "comment": "Handles multiple applications smoothly."
+      }
+    ]
+  },
+  {
+    "pid": "4",
+    "image": "https://i.ibb.co/6nhD33g/core-i5-14600k-01-500x500.webp",
+    "productName": "Intel Core i5-11600K",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 279.99,
+    "description": "Mid-range processor suitable for gaming and everyday tasks.",
+    "keyFeatures": {
+      "brand": "Intel",
+      "model": "Core i5-11600K",
+      "Specification": "6 cores, 12 threads",
+      "socketType": "LGA1200",
+      "clockSpeed": "3.9 GHz base, up to 4.9 GHz"
+    },
+    "individualRating": 4.2,
+    "averageRating": 4.0,
+    "reviews": [
+      {
+        "user": "CasualGamer23",
+        "rating": 4,
+        "comment": "Good value for money, handles games well."
+      },
+      {
+        "user": "EverydayUser45",
+        "rating": 4.3,
+        "comment": "Smooth performance for daily tasks."
+      }
+    ]
+  },
+  {
+    "pid": "5",
+    "image": "https://i.ibb.co/9sFD0Y9/ryzen-5-pro-4650g-500x500.jpg",
+    "productName": "AMD Ryzen 5 5600G",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 229.99,
+    "description": "Integrated graphics and decent performance for mid-range tasks.",
+    "keyFeatures": {
+      "brand": "AMD",
+      "model": "Ryzen 5 5600G",
+      "Specification": "6 cores, 12 threads",
+      "socketType": "AM4",
+      "clockSpeed": "3.9 GHz base, up to 4.4 GHz"
+    },
+    "individualRating": 4.0,
+    "averageRating": 3.9,
+    "reviews": [
+      {
+        "user": "MidRangeUser1",
+        "rating": 4,
+        "comment": "Good for moderate gaming and everyday tasks."
+      },
+      {
+        "user": "TechSavvy88",
+        "rating": 3.8,
+        "comment": "Decent processor for the price."
+      }
+    ]
+  },
+  {
+    "pid": "6",
+    "image": "https://i.ibb.co/SnP3WG8/i3-10100-500x500.jpg",
+    "productName": "Intel Core i3-10100F",
+    "category": "CPU / Processor",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "Entry-level CPU suitable for basic computing needs.",
+    "keyFeatures": {
+      "brand": "Intel",
+      "model": "Core i3-10100F",
+      "Specification": "4 cores, 8 threads",
+      "socketType": "LGA1200",
+      "clockSpeed": "3.6 GHz base, up to 4.3 GHz"
+    },
+    "individualRating": 3.5,
+    "averageRating": 3.6,
+    "reviews": [
+      {
+        "user": "BasicUser23",
+        "rating": 3.5,
+        "comment": "Handles everyday tasks adequately."
+      },
+      {
+        "user": "BudgetBuilder99",
+        "rating": 3.7,
+        "comment": "Good budget CPU for basic usage."
+      }
+    ]
+  },
+  {
+    "pid": "7",
+    "image": "https://i.ibb.co/wrVfCnc/b450m-a-pro-max-1-500x500.jpg",
+    "productName": "MSI MPG Z590 Gaming Carbon WiFi",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 349.99,
+    "description": "Feature-rich motherboard with WiFi 6E and high-speed connectivity.",
+    "keyFeatures": {
+      "brand": "MSI",
+      "model": "MPG Z590 Gaming Carbon WiFi",
+      "formFactor": "ATX",
+      "socketType": "LGA1200",
+      "ramSlots": "4 DDR4",
+      "ports": "USB 3.2, HDMI, DisplayPort",
+      "chipset": "Intel Z590"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": []
+  },
+  {
+    "pid": "8",
+    "image": "https://i.ibb.co/6RhJ1BW/b550m-01-500x500.jpg",
+    "productName": "ASRock B550M-ITX/ac",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "Compact and efficient mini-ITX motherboard with WiFi support.",
+    "keyFeatures": {
+      "brand": "ASRock",
+      "model": "B550M-ITX/ac",
+      "formFactor": "Mini-ITX",
+      "socketType": "AM4",
+      "ramSlots": "2 DDR4",
+      "ports": "USB 3.2, HDMI, DisplayPort",
+      "chipset": "AMD B550"
+    },
+    "individualRating": 4.4,
+    "averageRating": 4.3,
+    "reviews": []
+  },
+  {
+    "pid": "9",
+    "image": "https://i.ibb.co/nCbKGxp/b450m-500x500.jpg",
+    "productName": "GIGABYTE X570 AORUS Master",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 379.99,
+    "description": "High-end motherboard with extensive features and VRM cooling.",
+    "keyFeatures": {
+      "brand": "GIGABYTE",
+      "model": "X570 AORUS Master",
+      "formFactor": "ATX",
+      "socketType": "AM4",
+      "ramSlots": "4 DDR4",
+      "ports": "USB 3.2, HDMI, DisplayPort",
+      "chipset": "AMD X570"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": []
+  },
+  {
+    "pid": "10",
+    "image": "https://i.ibb.co/9bGKHLp/rog-strix-b460-h-500x500.jpg",
+    "productName": "ASUS ROG Crosshair VIII Dark Hero",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 499.99,
+    "description": "Highly overclockable motherboard with robust power delivery.",
+    "keyFeatures": {
+      "brand": "ASUS",
+      "model": "ROG Crosshair VIII Dark Hero",
+      "formFactor": "ATX",
+      "socketType": "AM4",
+      "ramSlots": "4 DDR4",
+      "ports": "USB 3.2, HDMI, DisplayPort",
+      "chipset": "AMD X570"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": []
+  },
+  {
+    "pid": "11",
+    "image": "https://i.ibb.co/hMwV0hW/b450-gaming-plus-max-1-500x500.jpg",
+    "productName": "MSI MAG B550 TOMAHAWK",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 179.99,
+    "description": "Solid mid-range motherboard with good performance and features.",
+    "keyFeatures": {
+      "brand": "MSI",
+      "model": "MAG B550 TOMAHAWK",
+      "formFactor": "ATX",
+      "socketType": "AM4",
+      "ramSlots": "4 DDR4",
+      "ports": "USB 3.2, HDMI, DisplayPort",
+      "chipset": "AMD B550"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.4,
+    "reviews": []
+  },
+  {
+    "pid": "12",
+    "image": "https://i.ibb.co/hMwV0hW/b450-gaming-plus-max-1-500x500.jpg",
+    "productName": "ASRock Z590 Steel Legend",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 249.99,
+    "description": "Feature-rich motherboard with robust build quality.",
+    "keyFeatures": {
+      "brand": "ASRock",
+      "model": "Z590 Steel Legend",
+      "formFactor": "ATX",
+      "socketType": "LGA1200",
+      "ramSlots": "4 DDR4",
+      "ports": "USB 3.2, HDMI, DisplayPort",
+      "chipset": "Intel Z590"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": []
+  },
+  {
+    "pid": "13",
+    "image": "https://i.ibb.co/kJLq661/ripjaws-v-8gb-500x500.jpg",
+    "productName": "G.SKILL Trident Z RGB",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 179.99,
+    "description": "RGB DDR4 RAM modules with high speed and performance.",
+    "keyFeatures": {
+      "brand": "G.SKILL",
+      "model": "Trident Z RGB",
+      "capacity": "32GB (2 x 16GB)",
+      "speed": "3600MHz",
+      "type": "DDR4"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": []
+  },
+  {
+    "pid": "14",
+    "image": "https://i.ibb.co/dt1CWpB/vengeance-rgb-pro-ram-kit-white-01-500x500.jpg",
+    "productName": "Crucial Ballistix RGB",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "Reliable and high-performance RGB DDR4 RAM modules.",
+    "keyFeatures": {
+      "brand": "Crucial",
+      "model": "Ballistix RGB",
+      "capacity": "16GB (2 x 8GB)",
+      "speed": "3200MHz",
+      "type": "DDR4"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.4,
+    "reviews": []
+  },
+  {
+    "pid": "15",
+    "image": "https://i.ibb.co/h9sgshn/delta-white-10-500x500.jpg",
+    "productName": "Corsair Vengeance LPX",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "High-performance DDR4 RAM with low profile design.",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "Vengeance LPX",
+      "capacity": "16GB (2 x 8GB)",
+      "speed": "3000MHz",
+      "type": "DDR4"
+    },
+    "individualRating": 4.3,
+    "averageRating": 4.2,
+    "reviews": []
+  },
+  {
+    "pid": "16",
+    "image": "https://i.ibb.co/h9sgshn/delta-white-10-500x500.jpg",
+    "productName": "TeamGroup T-Force Delta RGB",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 159.99,
+    "description": "RGB DDR4 RAM with vibrant lighting effects and good performance.",
+    "keyFeatures": {
+      "brand": "TeamGroup",
+      "model": "T-Force Delta RGB",
+      "capacity": "32GB (2 x 16GB)",
+      "speed": "3200MHz",
+      "type": "DDR4"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": []
+  },
+  {
+    "pid": "17",
+    "image": "https://i.ibb.co/XzwfDNk/trident-z-neo-001-500x500.jpg",
+    "productName": "Kingston HyperX Fury",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 99.99,
+    "description": "Reliable DDR4 RAM modules with sleek design.",
+    "keyFeatures": {
+      "brand": "Kingston",
+      "model": "HyperX Fury",
+      "capacity": "8GB (1 x 8GB)",
+      "speed": "2666MHz",
+      "type": "DDR4"
+    },
+    "individualRating": 4.0,
+    "averageRating": 3.9,
+    "reviews": []
+  },
+  {
+    "pid": "18",
+    "image": "https://i.ibb.co/XzwfDNk/trident-z-neo-001-500x500.jpg",
+    "productName": "G.SKILL Ripjaws V Series",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 179.99,
+    "description": "High-speed DDR4 RAM with excellent overclocking potential.",
+    "keyFeatures": {
+      "brand": "G.SKILL",
+      "model": "Ripjaws V Series",
+      "capacity": "32GB (2 x 16GB)",
+      "speed": "3600MHz",
+      "type": "DDR4"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": []
+  },
+  {
+    "pid": "19",
+    "image": "https://i.ibb.co/TKJGBTc/cx550f-01-500x500.jpg",
+    "productName": "EVGA SuperNOVA 850 G5",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 159.99,
+    "description": "Highly efficient 850W power supply unit for gaming rigs.",
+    "keyFeatures": {
+      "brand": "EVGA",
+      "model": "SuperNOVA 850 G5",
+      "wattage": "850W",
+      "certification": "80 Plus Gold",
+      "modularity": "Fully Modular"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": []
+  },
+  {
+    "pid": "20",
+    "image": "https://i.ibb.co/BVStHSs/mwe-550-80-plus-1-500x500.jpg",
+    "productName": "Corsair RM750x",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 139.99,
+    "description": "Quiet and efficient 750W power supply for high-end systems.",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "RM750x",
+      "wattage": "750W",
+      "certification": "80 Plus Gold",
+      "modularity": "Fully Modular"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": []
+  },
+  {
+    "pid": "21",
+    "image": "https://i.ibb.co/BVStHSs/mwe-550-80-plus-1-500x500.jpg",
+    "productName": "Seasonic Focus GX-850",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 169.99,
+    "description": "Reliable and stable 850W power supply unit with high efficiency.",
+    "keyFeatures": {
+      "brand": "Seasonic",
+      "model": "Focus GX-850",
+      "wattage": "850W",
+      "certification": "80 Plus Gold",
+      "modularity": "Fully Modular"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": []
+  },
+  {
+    "pid": "22",
+    "image": "https://i.ibb.co/gDrc7Qp/toughpower-pf1-1200w-500x500.jpg",
+    "productName": "Cooler Master MWE Gold 750 V2",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "Efficient 750W power supply unit with a sleek design.",
+    "keyFeatures": {
+      "brand": "Cooler Master",
+      "model": "MWE Gold 750 V2",
+      "wattage": "750W",
+      "certification": "80 Plus Gold",
+      "modularity": "Semi-Modular"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.4,
+    "reviews": []
+  },
+  {
+    "pid": "23",
+    "image": "https://i.ibb.co/dbJDDqr/rog-strix-1000g-01-500x500.jpg",
+    "productName": "Thermaltake Toughpower GF1 850W",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 179.99,
+    "description": "Robust 850W power supply unit designed for high-end setups.",
+    "keyFeatures": {
+      "brand": "Thermaltake",
+      "model": "Toughpower GF1 850W",
+      "wattage": "850W",
+      "certification": "80 Plus Gold",
+      "modularity": "Fully Modular"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": []
+  },
+  {
+    "pid": "24",
+    "image": "https://i.ibb.co/TKJGBTc/cx550f-01-500x500.jpg",
+    "productName": "NZXT C850",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 159.99,
+    "description": "Silent and reliable 850W power supply unit for gaming PCs.",
+    "keyFeatures": {
+      "brand": "NZXT",
+      "model": "C850",
+      "wattage": "850W",
+      "certification": "80 Plus Gold",
+      "modularity": "Fully Modular"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": []
+  },
+  {
+    "pid": "25",
+    "image": "https://i.ibb.co/pZGKv03/my-cloud-home-01-500x500.jpg",
+    "productName": "Samsung 980 PRO SSD 1TB",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 199.99,
+    "description": "High-speed NVMe SSD with exceptional performance.",
+    "keyFeatures": {
+      "brand": "Samsung",
+      "model": "980 PRO",
+      "capacity": "1TB",
+      "interface": "PCIe 4.0 x4",
+      "formFactor": "M.2",
+      "readSpeed": "Up to 7000 MB/s",
+      "writeSpeed": "Up to 5000 MB/s"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": []
+  },
+  {
+    "pid": "26",
+    "image": "https://i.ibb.co/pZGKv03/my-cloud-home-01-500x500.jpg",
+    "productName": "Western Digital WD Blue SN550 500GB",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 89.99,
+    "description": "Reliable NVMe SSD for everyday computing.",
+    "keyFeatures": {
+      "brand": "Western Digital",
+      "model": "WD Blue SN550",
+      "capacity": "500GB",
+      "interface": "PCIe 3.0 x4",
+      "formFactor": "M.2",
+      "readSpeed": "Up to 2400 MB/s",
+      "writeSpeed": "Up to 1750 MB/s"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.4,
+    "reviews": []
+  },
+  {
+    "pid": "27",
+    "image": "https://i.ibb.co/pZGKv03/my-cloud-home-01-500x500.jpg",
+    "productName": "Crucial MX500 2TB SSD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 289.99,
+    "description": "High-capacity SATA SSD for storage-intensive applications.",
+    "keyFeatures": {
+      "brand": "Crucial",
+      "model": "MX500",
+      "capacity": "2TB",
+      "interface": "SATA 6.0 Gb/s",
+      "formFactor": "2.5-inch",
+      "readSpeed": "Up to 560 MB/s",
+      "writeSpeed": "Up to 510 MB/s"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": []
+  },
+  {
+    "pid": "28",
+    "image": "https://i.ibb.co/pZGKv03/my-cloud-home-01-500x500.jpg",
+    "productName": "Seagate BarraCuda 4TB HDD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 119.99,
+    "description": "High-capacity HDD for storing games and media files.",
+    "keyFeatures": {
+      "brand": "Seagate",
+      "model": "BarraCuda",
+      "capacity": "4TB",
+      "interface": "SATA 6.0 Gb/s",
+      "formFactor": "3.5-inch",
+      "speed": "7200 RPM"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": []
+  },
+  {
+    "pid": "29",
+    "image": "https://i.ibb.co/pZGKv03/my-cloud-home-01-500x500.jpg",
+    "productName": "ADATA SU800 1TB SSD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "Reliable and cost-effective SATA SSD for various uses.",
+    "keyFeatures": {
+      "brand": "ADATA",
+      "model": "SU800",
+      "capacity": "1TB",
+      "interface": "SATA 6.0 Gb/s",
+      "formFactor": "2.5-inch",
+      "readSpeed": "Up to 560 MB/s",
+      "writeSpeed": "Up to 520 MB/s"
+    },
+    "individualRating": 4.4,
+    "averageRating": 4.3,
+    "reviews": []
+  },
+  {
+    "pid": "30",
+    "image": "https://i.ibb.co/pZGKv03/my-cloud-home-01-500x500.jpg",
+    "productName": "Intel 670p Series 2TB SSD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 249.99,
+    "description": "Fast and reliable NVMe SSD for storage-hungry applications.",
+    "keyFeatures": {
+      "brand": "Intel",
+      "model": "670p Series",
+      "capacity": "2TB",
+      "interface": "PCIe 3.0 x4",
+      "formFactor": "M.2",
+      "readSpeed": "Up to 3500 MB/s",
+      "writeSpeed": "Up to 2700 MB/s"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": []
+  },
+  {
+    "pid": "31",
+    "image": "https://i.ibb.co/YfZNDtf/ex2710s-01-500x500.jpg",
+    "productName": "LG UltraGear 27GN950-B",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 999.99,
+    "description": "27-inch 4K gaming monitor with high refresh rate and HDR support.",
+    "keyFeatures": {
+      "brand": "LG",
+      "model": "UltraGear 27GN950-B",
+      "screenSize": "27 inches",
+      "resolution": "3840 x 2160 (4K)",
+      "refreshRate": "144Hz",
+      "panelType": "Nano IPS",
+      "responseTime": "1ms",
+      "HDR Support": "Yes"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": []
+  },
+  {
+    "pid": "32",
+    "image": "https://i.ibb.co/SVhwDfz/32ul950-w-01-500x500.jpg",
+    "productName": "ASUS ROG Swift PG279Q",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 799.99,
+    "description": "27-inch WQHD gaming monitor with G-Sync and ultra-fast refresh rate.",
+    "keyFeatures": {
+      "brand": "ASUS",
+      "model": "ROG Swift PG279Q",
+      "screenSize": "27 inches",
+      "resolution": "2560 x 1440 (WQHD)",
+      "refreshRate": "165Hz",
+      "panelType": "IPS",
+      "responseTime": "4ms",
+      "G-Sync Support": "Yes"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": []
+  },
+  {
+    "pid": "33",
+    "image": "https://i.ibb.co/YfZNDtf/ex2710s-01-500x500.jpg",
+    "productName": "Acer Predator XB273K",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 899.99,
+    "description": "27-inch 4K gaming monitor with G-Sync and HDR400 support.",
+    "keyFeatures": {
+      "brand": "Acer",
+      "model": "Predator XB273K",
+      "screenSize": "27 inches",
+      "resolution": "3840 x 2160 (4K)",
+      "refreshRate": "144Hz",
+      "panelType": "IPS",
+      "responseTime": "4ms",
+      "G-Sync Support": "Yes",
+      "HDR Support": "HDR400"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": []
+  },
+  {
+    "pid": "34",
+    "image": "https://i.ibb.co/YfZNDtf/ex2710s-01-500x500.jpg",
+    "productName": "Dell S3221QS",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 499.99,
+    "description": "32-inch 4K curved monitor with vibrant colors and AMD FreeSync.",
+    "keyFeatures": {
+      "brand": "Dell",
+      "model": "S3221QS",
+      "screenSize": "32 inches",
+      "resolution": "3840 x 2160 (4K)",
+      "refreshRate": "60Hz",
+      "panelType": "VA",
+      "responseTime": "4ms",
+      "FreeSync Support": "Yes"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": []
+  },
+  {
+    "pid": "35",
+    "image": "https://i.ibb.co/SVhwDfz/32ul950-w-01-500x500.jpg",
+    "productName": "BenQ EX2780Q",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 599.99,
+    "description": "27-inch 2K gaming monitor with HDRi and 144Hz refresh rate.",
+    "keyFeatures": {
+      "brand": "BenQ",
+      "model": "EX2780Q",
+      "screenSize": "27 inches",
+      "resolution": "2560 x 1440 (2K)",
+      "refreshRate": "144Hz",
+      "panelType": "IPS",
+      "responseTime": "5ms",
+      "hDRiSupport": "Yes"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": []
+  },
+  {
+    "pid": "36",
+    "image": "https://i.ibb.co/SVhwDfz/32ul950-w-01-500x500.jpg",
+    "productName": "ViewSonic VX2776-4K-MHD",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 349.99,
+    "description": "27-inch 4K monitor with ultra-slim bezel and vibrant color accuracy.",
+    "keyFeatures": {
+      "brand": "ViewSonic",
+      "model": "VX2776-4K-MHD",
+      "screenSize": "27 inches",
+      "resolution": "3840 x 2160 (4K)",
+      "refreshRate": "60Hz",
+      "panelType": "IPS",
+      "responseTime": "4ms"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.4,
+    "reviews": []
+  }
+]

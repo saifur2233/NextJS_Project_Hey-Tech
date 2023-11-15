@@ -4,8 +4,8 @@ const RootLayout = ({ children }) => {
   return (
     <div>
       <header>
-        <div className="navbar bg-blue-700 px-8 text-white">
-          <div className="navbar-start">
+        <div className="navbar bg-blue-700 px-8 ">
+          <div className="navbar-start text-white">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
                 <svg
@@ -25,57 +25,103 @@ const RootLayout = ({ children }) => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52"
               >
                 <li>
-                  <Link href="#">Item 1</Link>
+                  <Link href="#" className="text-neutral">
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link href="#">Parent</Link>
-                  <ul className="p-2">
+                  <Link href="#" className="text-neutral">
+                    Component
+                  </Link>
+                  <ul className="p-2 bg-blue-700">
                     <li>
-                      <Link href="#">Submenu 1</Link>
+                      <Link href="#" className="text-white">
+                        CPU / Processor
+                      </Link>
                     </li>
                     <li>
-                      <Link href="#">Submenu 2</Link>
+                      <Link href="#">Motherboard</Link>
+                    </li>
+                    <li>
+                      <Link href="#">RAM</Link>
+                    </li>
+                    <li>
+                      <Link href="#">Power Supply Unit</Link>
+                    </li>
+                    <li>
+                      <Link href="#">Storage Device</Link>
+                    </li>
+                    <li>
+                      <Link href="#">Monitor</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link href="#">Item 3</Link>
+                  <Link href="#" className="text-neutral">
+                    Special Offer
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="text-neutral">
+                    Account
+                  </Link>
                 </li>
               </ul>
             </div>
-            <Link href="#" className="btn btn-ghost text-xl">
+            <Link href="/" className="btn btn-ghost text-xl">
               <p className="font-bold text-2xl">Hey-Tech</p>
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <Link href="#">Item 1</Link>
+                <Link href="/" className="text-white">
+                  Home
+                </Link>
               </li>
               <li tabIndex={0}>
                 <details>
-                  <summary>Parent</summary>
-                  <ul className="p-2">
+                  <summary className="text-white">Component</summary>
+                  <ul className="p-2 bg-blue-700">
                     <li>
-                      <Link href="#">Submenu 1</Link>
+                      <Link href="#">CPU / Processor</Link>
                     </li>
                     <li>
-                      <Link href="#">Submenu 2</Link>
+                      <Link href="#">Motherboard</Link>
+                    </li>
+                    <li>
+                      <Link href="#">RAM</Link>
+                    </li>
+                    <li>
+                      <Link href="#">Power Supply Unit</Link>
+                    </li>
+                    <li>
+                      <Link href="#">Storage Device</Link>
+                    </li>
+                    <li>
+                      <Link href="#">Monitor</Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <Link href="#">Item 3</Link>
+                <Link href="#" className="text-white">
+                  Special Offer
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-white">
+                  Account
+                </Link>
               </li>
             </ul>
           </div>
           <div className="navbar-end">
-            <Link href="#" className="btn">
-              Button
+            <Link href="#" className="btn btn-accent text-white">
+              PC Builder
             </Link>
           </div>
         </div>
