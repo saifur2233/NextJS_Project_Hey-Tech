@@ -108,19 +108,19 @@ const RootLayout = ({ children }) => {
                 </details>
               </li>
               <li>
-                <Link href="#" className="text-white">
+                <Link href="/specialoffer" className="text-white">
                   Special Offer
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white">
+                <Link href="/account" className="text-white">
                   Account
                 </Link>
               </li>
             </ul>
           </div>
           <div className="navbar-end">
-            <Link href="#" className="btn btn-accent text-white">
+            <Link href="/pcbuilder" className="btn btn-accent text-white">
               PC Builder
             </Link>
           </div>
