@@ -4,7 +4,7 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row gap-12">
         <img
           src="https://i.ibb.co/ThfTZj7/Star-Tech-Laptop-Desktop-Deal-Home-Banner-982x500.png"
-          className="sm:max-w-sm md:max-w-md  lg:max-w-2xl hover:max-w-5xl rounded-lg shadow-2xl"
+          className="sm:max-w-sm md:max-w-md lg:max-w-2xl hover:max-w-5xl rounded-lg shadow-2xl"
         />
         <div>
           <h1 className="text-5xl font-bold text-blue-700">
