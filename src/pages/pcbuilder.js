@@ -34,17 +34,18 @@ const PCBuilderPage = () => {
                 </label>
               </div>
             </div>
-            <div className="pt-2">
+            <div className="pt-2 gap-2">
               <button className="btn btn-outline btn-error">
                 <p>0W</p> <p>Estimated Wattage</p>
               </button>
+
               <button className="btn btn-info">0TK 0 Items</button>
             </div>
           </div>
           <div className="bg-blue-700 my-3">
             <p className="text-sm text-white ps-4">Core Component</p>
           </div>
-          {/* <div><img src="https://i.ibb.co/wsXYJzQ/cpu.png" alt="cpu" border="0"></div> */}
+
           <div>
             <div className="card bg-secondary-content my-2">
               <div className="flex justify-between p-5">
