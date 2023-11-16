@@ -1,7 +1,17 @@
 import RootLayout from "@/components/Layouts/RootLayout";
+import auth from "@/firebase/firebase.auth";
 import Link from "next/link";
+import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
+import { useForm } from "react-hook-form";
 
 const AccountPage = () => {
+  const [createUserWithEmailAndPassword, user, loading, error] =
+    useCreateUserWithEmailAndPassword(auth);
+  console.log("User", user);
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data) => {
+    createUserWithEmailAndPassword(data.email, data.password);
+  };
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -16,20 +26,9 @@ const AccountPage = () => {
           <h1 className="text-5xl text-secondary font-bold text-center py-5">
             Registration!
           </h1>
-          <form className="card-body">
+          <form onSubmit={handleSubmit(onSubmit)} className="card-body">
             <p className="text-center text-red-600"></p>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Name</span>
-              </label>
-              <input
-                type="text"
-                placeholder="Name"
-                name="name"
-                className="input input-bordered"
-                required
-              />
-            </div>
+
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
@@ -39,6 +38,7 @@ const AccountPage = () => {
                 placeholder="email"
                 name="email"
                 className="input input-bordered"
+                {...register("email", { required: true })}
                 required
               />
             </div>
@@ -51,12 +51,15 @@ const AccountPage = () => {
                 placeholder="password"
                 name="password"
                 className="input input-bordered"
+                {...register("password", { required: true })}
                 required
               />
             </div>
 
             <div className="form-control mt-6">
-              <button className="btn btn-secondary">Register</button>
+              <button className="btn btn-secondary" type="submit">
+                Register
+              </button>
             </div>
             <div className="divider">OR</div>
             <p className="text-center">
@@ -75,6 +78,6 @@ const AccountPage = () => {
   );
 };
 export default AccountPage;
-AccountPage.getLayout = function getLayout(page) {
-  return <RootLayout>{page}</RootLayout>;
-};
+// AccountPage.getLayout = function getLayout(page) {
+//   return <RootLayout>{page}</RootLayout>;
+// };

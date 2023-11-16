@@ -47,9 +47,9 @@ const ProductDetailPage = ({ product }) => {
 
 export default ProductDetailPage;
 
-ProductDetailPage.getLayout = function getLayout(page) {
-  return <RootLayout>{page}</RootLayout>;
-};
+// ProductDetailPage.getLayout = function getLayout(page) {
+//   return <RootLayout>{page}</RootLayout>;
+// };
 
 export const getServerSideProps = async (context) => {
   const { params } = context;

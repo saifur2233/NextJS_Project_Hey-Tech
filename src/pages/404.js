@@ -9,6 +9,6 @@ const NotFoundPage = () => {
 };
 
 export default NotFoundPage;
-NotFoundPage.getLayout = function getLayout(page) {
-  return <RootLayout>{page}</RootLayout>;
-};
+// NotFoundPage.getLayout = function getLayout(page) {
+//   return <RootLayout>{page}</RootLayout>;
+// };

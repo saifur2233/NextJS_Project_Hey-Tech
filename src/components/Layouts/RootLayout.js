@@ -1,6 +1,10 @@
 const { default: Link } = require("next/link");
+import { useSession, signIn, signOut } from "next-auth/react";
 
 const RootLayout = ({ children }) => {
+  const { data: session } = useSession();
+
+  //console.log("from header", session);
   return (
     <div>
       <header>

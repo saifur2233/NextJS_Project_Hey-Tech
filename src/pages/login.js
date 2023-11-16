@@ -1,7 +1,18 @@
 import RootLayout from "@/components/Layouts/RootLayout";
+import auth from "@/firebase/firebase.auth";
 import Link from "next/link";
+import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
+import { useForm } from "react-hook-form";
 
 const LoginPage = () => {
+  const [signInWithEmailAndPassword, user, loading, error] =
+    useSignInWithEmailAndPassword(auth);
+  console.log("User", user);
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data) => {
+    console.log("Data", data);
+    signInWithEmailAndPassword(data.email, data.password);
+  };
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -16,20 +27,9 @@ const LoginPage = () => {
           <h1 className="text-5xl text-secondary font-bold text-center py-5">
             User Login
           </h1>
-          <form className="card-body">
+          <form onSubmit={handleSubmit(onSubmit)} className="card-body">
             <p className="text-center text-red-600"></p>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Name</span>
-              </label>
-              <input
-                type="text"
-                placeholder="Name"
-                name="name"
-                className="input input-bordered"
-                required
-              />
-            </div>
+
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
@@ -39,6 +39,7 @@ const LoginPage = () => {
                 placeholder="email"
                 name="email"
                 className="input input-bordered"
+                {...register("email", { required: true })}
                 required
               />
             </div>
@@ -51,12 +52,15 @@ const LoginPage = () => {
                 placeholder="password"
                 name="password"
                 className="input input-bordered"
+                {...register("password", { required: true })}
                 required
               />
             </div>
 
             <div className="form-control mt-6">
-              <button className="btn btn-secondary">Login</button>
+              <button className="btn btn-secondary" type="submit">
+                Login
+              </button>
             </div>
             <div className="divider">OR</div>
             <p className="text-center">
@@ -76,6 +80,6 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
-LoginPage.getLayout = function getLayout(page) {
-  return <RootLayout>{page}</RootLayout>;
-};
+// LoginPage.getLayout = function getLayout(page) {
+//   return <RootLayout>{page}</RootLayout>;
+// };

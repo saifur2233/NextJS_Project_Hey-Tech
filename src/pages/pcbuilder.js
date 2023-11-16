@@ -179,6 +179,6 @@ const PCBuilderPage = () => {
 };
 
 export default PCBuilderPage;
-PCBuilderPage.getLayout = function getLayout(page) {
-  return <RootLayout>{page}</RootLayout>;
-};
+// PCBuilderPage.getLayout = function getLayout(page) {
+//   return <RootLayout>{page}</RootLayout>;
+// };

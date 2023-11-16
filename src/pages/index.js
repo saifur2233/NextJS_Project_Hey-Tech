@@ -22,9 +22,6 @@ const HomePage = ({ allProducts }) => {
 };
 
 export default HomePage;
-HomePage.getLayout = function getLayout(page) {
-  return <RootLayout>{page}</RootLayout>;
-};
 
 export const getStaticProps = async () => {
   const res = await fetch("https://hey-tech-server.vercel.app/product");
