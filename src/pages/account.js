@@ -1,4 +1,4 @@
-import RootLayout from "@/components/Layouts/RootLayout";
+import { signIn } from "next-auth/react";
 import auth from "@/firebase/firebase.auth";
 import Link from "next/link";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form";
 const AccountPage = () => {
   const [createUserWithEmailAndPassword, user, loading, error] =
     useCreateUserWithEmailAndPassword(auth);
-  console.log("User", user);
+  //console.log("User", user);
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     createUserWithEmailAndPassword(data.email, data.password);
@@ -68,7 +68,14 @@ const AccountPage = () => {
                 Login
               </Link>
             </p>
-            <button className="btn btn-outline btn-success">
+            <button
+              className="btn btn-outline btn-success"
+              onClick={() =>
+                signIn("google", {
+                  callbackUrl: "http://localhost:3000/",
+                })
+              }
+            >
               Sign Up with Google
             </button>
           </form>

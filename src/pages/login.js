@@ -1,4 +1,4 @@
-import RootLayout from "@/components/Layouts/RootLayout";
+import { signIn } from "next-auth/react";
 import auth from "@/firebase/firebase.auth";
 import Link from "next/link";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
@@ -69,7 +69,14 @@ const LoginPage = () => {
                 Sign Up
               </Link>
             </p>
-            <button className="btn btn-outline btn-success">
+            <button
+              className="btn btn-outline btn-success"
+              onClick={() =>
+                signIn("google", {
+                  callbackUrl: "http://localhost:3000/",
+                })
+              }
+            >
               Sign In with Google
             </button>
           </form>
