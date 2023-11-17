@@ -1,15 +1,14 @@
 import auth from "@/firebase/firebase.auth";
-import { useSession, signOut } from "next-auth/react";
 import Link from "next/link";
 import { useAuthState } from "react-firebase-hooks/auth";
+import { signOut } from "firebase/auth";
 
 const NavBar = () => {
-  const { data: session } = useSession();
   const [user, loading, error] = useAuthState(auth);
-  console.log("from user", user?.email);
-  console.log("from loading", loading);
-  console.log("from error", error);
-  const menuItems = <></>;
+
+  const logout = () => {
+    signOut(auth);
+  };
   return (
     <header>
       <div className="navbar bg-blue-700 px-8 ">
@@ -72,15 +71,27 @@ const NavBar = () => {
                   Special Offer
                 </Link>
               </li>
-              <li>
-                <Link href="#" className="text-neutral">
-                  Account
-                </Link>
-              </li>
-              {user?.email && (
+
+              {user?.email ? (
+                <>
+                  <li>
+                    <Link href="#" className="text-neutral ">
+                      {user?.email}
+                    </Link>
+                  </li>
+                  <li>
+                    <button
+                      className="btn btn-sm btn-error text-white"
+                      onClick={logout}
+                    >
+                      Log Out
+                    </button>
+                  </li>
+                </>
+              ) : (
                 <li>
-                  <Link href="#" className="text-neutral ">
-                    {user?.email}
+                  <Link href="account" className="text-neutral">
+                    Account
                   </Link>
                 </li>
               )}
@@ -136,9 +147,12 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-white">
+                  <button
+                    className="btn btn-sm btn-error text-white"
+                    onClick={logout}
+                  >
                     Log Out
-                  </Link>
+                  </button>
                 </li>
               </>
             ) : (
