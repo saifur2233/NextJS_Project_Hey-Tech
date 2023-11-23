@@ -1,7 +1,21 @@
+import { useGetProductsQuery } from "@/redux/api/apiSlice";
+import { addToCart } from "@/redux/features/cart/cartSlice";
 import Link from "next/link";
+import toast from "react-hot-toast";
+import { useDispatch } from "react-redux";
 
-const AllProducts = ({ allProducts }) => {
+const AllProducts = () => {
   //console.log("allProducts page", allProducts);
+  const { data, isLoading, error } = useGetProductsQuery(undefined);
+
+  console.log("Loading: ", isLoading);
+  console.log("Error: ", error);
+  const dispatch = useDispatch();
+  const handleAddProduct = (product) => {
+    console.log("Product: ", product);
+    dispatch(addToCart(product));
+    toast.success("Product Added");
+  };
   return (
     <div>
       <div className="text-center py-12">
@@ -10,7 +24,7 @@ const AllProducts = ({ allProducts }) => {
       </div>
       <div className="pt-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-10 w-[80%] mx-auto">
-          {allProducts.slice(0, 6).map((product) => (
+          {data?.data.slice(0, 6).map((product) => (
             <div key={product.pid} className="card w-96 bg-base-100 shadow-xl">
               <Link href={`/products/${product?._id}`}>
                 <figure>
@@ -40,7 +54,12 @@ const AllProducts = ({ allProducts }) => {
                 </div>
               </div>
               <div className="card-actions justify-end">
-                <button className="btn btn-secondary">Add To Cart</button>
+                <button
+                  onClick={() => handleAddProduct(product)}
+                  className="btn btn-secondary"
+                >
+                  Add To Cart
+                </button>
               </div>
             </div>
           ))}

@@ -3,7 +3,7 @@ import AllProducts from "@/components/UI/AllProducts";
 import Banner from "@/components/UI/Banner";
 import Head from "next/head";
 
-const HomePage = ({ allProducts }) => {
+const HomePage = () => {
   return (
     <>
       <Head>
@@ -16,21 +16,21 @@ const HomePage = ({ allProducts }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
-      <AllProducts allProducts={allProducts} />
+      <AllProducts />
     </>
   );
 };
 
 export default HomePage;
 
-export const getStaticProps = async () => {
-  const res = await fetch("https://hey-tech-server.vercel.app/product");
-  const data = await res.json();
-  //console.log(data.data);
-  return {
-    props: {
-      allProducts: data.data,
-    },
-    revalidate: 10,
-  };
-};
+// export const getStaticProps = async () => {
+//   const res = await fetch("https://hey-tech-server.vercel.app/product");
+//   const data = await res.json();
+//   //console.log(data.data);
+//   return {
+//     props: {
+//       allProducts: data.data,
+//     },
+//     revalidate: 10,
+//   };
+// };

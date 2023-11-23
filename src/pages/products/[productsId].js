@@ -1,6 +1,3 @@
-import RootLayout from "@/components/Layouts/RootLayout";
-import React from "react";
-
 const ProductDetailPage = ({ product }) => {
   return (
     <>
@@ -57,7 +54,7 @@ export const getServerSideProps = async (context) => {
     `https://hey-tech-server.vercel.app/product/${params.productsId}`
   );
   const data = await res.json();
-  console.log("New Detail ", data);
+  //console.log("New Detail ", data);
 
   return {
     props: {
