@@ -1,4 +1,5 @@
 import RootLayout from "@/components/Layouts/RootLayout";
+import Link from "next/link";
 import React from "react";
 
 const PCBuilderPage = () => {
@@ -61,9 +62,11 @@ const PCBuilderPage = () => {
                 </div>
 
                 <div className="">
-                  <button className="btn btn-primary btn-outline">
-                    Choose
-                  </button>
+                  <Link href="/chooseproduct/Processor">
+                    <button className="btn btn-primary btn-outline">
+                      Choose
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -77,15 +80,17 @@ const PCBuilderPage = () => {
                     />
                   </figure>
                   <h2 className="card-title">
-                    CPU
+                    Motherboard
                     <div className="badge badge-secondary">Required</div>
                   </h2>
                 </div>
 
                 <div className="">
-                  <button className="btn btn-primary btn-outline">
-                    Choose
-                  </button>
+                  <Link href={`/chooseproduct`}>
+                    <button className="btn btn-primary btn-outline">
+                      Choose
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -102,9 +107,11 @@ const PCBuilderPage = () => {
                 </div>
 
                 <div className="">
-                  <button className="btn btn-primary btn-outline">
-                    Choose
-                  </button>
+                  <Link href="/chooseproduct">
+                    <button className="btn btn-primary btn-outline">
+                      Choose
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -121,9 +128,11 @@ const PCBuilderPage = () => {
                 </div>
 
                 <div className="">
-                  <button className="btn btn-primary btn-outline">
-                    Choose
-                  </button>
+                  <Link href="/chooseproduct">
+                    <button className="btn btn-primary btn-outline">
+                      Choose
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -143,9 +152,11 @@ const PCBuilderPage = () => {
                 </div>
 
                 <div className="">
-                  <button className="btn btn-primary btn-outline">
-                    Choose
-                  </button>
+                  <Link href="/chooseproduct">
+                    <button className="btn btn-primary btn-outline">
+                      Choose
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -165,9 +176,11 @@ const PCBuilderPage = () => {
                 </div>
 
                 <div className="">
-                  <button className="btn btn-primary btn-outline">
-                    Choose
-                  </button>
+                  <Link href="/chooseproduct">
+                    <button className="btn btn-primary btn-outline">
+                      Choose
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
