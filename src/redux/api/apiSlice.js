@@ -14,7 +14,14 @@ export const apiSlice = createApi({
     getSingleProducts: builder.query({
       query: (id) => `/product/${id}`,
     }),
+    getCategoryProducts: builder.query({
+      query: (category) => `/category?category=${category}`,
+    }),
   }),
 });
 
-export const { useGetProductsQuery, useGetSingleProductsQuery } = apiSlice;
+export const {
+  useGetProductsQuery,
+  useGetSingleProductsQuery,
+  useGetCategoryProductsQuery,
+} = apiSlice;

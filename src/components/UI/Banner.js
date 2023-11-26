@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="hero py-10">
+    <div className="hero py-12">
       <div className="hero-content flex-col lg:flex-row gap-12">
         <img
           src="https://i.ibb.co/ThfTZj7/Star-Tech-Laptop-Desktop-Deal-Home-Banner-982x500.png"

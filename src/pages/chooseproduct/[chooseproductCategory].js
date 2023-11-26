@@ -62,7 +62,7 @@ export const getServerSideProps = async (context) => {
     `https://hey-tech-server.vercel.app/category?category=${params.chooseproductCategory}`
   );
   const data = await res.json();
-  console.log("Category ", data);
+  //console.log("Category ", data);
 
   return {
     props: {

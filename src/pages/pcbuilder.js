@@ -86,7 +86,7 @@ const PCBuilderPage = () => {
                 </div>
 
                 <div className="">
-                  <Link href={`/chooseproduct`}>
+                  <Link href={`/chooseproduct/Motherboard`}>
                     <button className="btn btn-primary btn-outline">
                       Choose
                     </button>
@@ -107,7 +107,7 @@ const PCBuilderPage = () => {
                 </div>
 
                 <div className="">
-                  <Link href="/chooseproduct">
+                  <Link href="/chooseproduct/RAM">
                     <button className="btn btn-primary btn-outline">
                       Choose
                     </button>
@@ -128,7 +128,7 @@ const PCBuilderPage = () => {
                 </div>
 
                 <div className="">
-                  <Link href="/chooseproduct">
+                  <Link href="/chooseproduct/PowerSupplyUnit">
                     <button className="btn btn-primary btn-outline">
                       Choose
                     </button>
@@ -152,7 +152,7 @@ const PCBuilderPage = () => {
                 </div>
 
                 <div className="">
-                  <Link href="/chooseproduct">
+                  <Link href="/chooseproduct/StorageDevice">
                     <button className="btn btn-primary btn-outline">
                       Choose
                     </button>
@@ -176,7 +176,7 @@ const PCBuilderPage = () => {
                 </div>
 
                 <div className="">
-                  <Link href="/chooseproduct">
+                  <Link href="/chooseproduct/Monitor">
                     <button className="btn btn-primary btn-outline">
                       Choose
                     </button>

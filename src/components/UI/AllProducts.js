@@ -1,4 +1,7 @@
-import { useGetProductsQuery } from "@/redux/api/apiSlice";
+import {
+  useGetCategoryProductsQuery,
+  useGetProductsQuery,
+} from "@/redux/api/apiSlice";
 import { addToCart } from "@/redux/features/cart/cartSlice";
 import Link from "next/link";
 import toast from "react-hot-toast";
@@ -6,13 +9,13 @@ import { useDispatch } from "react-redux";
 
 const AllProducts = () => {
   //console.log("allProducts page", allProducts);
-  const { data, isLoading, error } = useGetProductsQuery(undefined);
-
+  //const { data, isLoading, error } = useGetProductsQuery(undefined);
+  const { data, isLoading, error } = useGetCategoryProductsQuery("Monitor");
   console.log("Loading: ", isLoading);
   console.log("Error: ", error);
   const dispatch = useDispatch();
   const handleAddProduct = (product) => {
-    console.log("Product: ", product);
+    //console.log("Product: ", product);
     dispatch(addToCart(product));
     toast.success("Product Added");
   };
@@ -24,7 +27,7 @@ const AllProducts = () => {
       </div>
       <div className="pt-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-10 w-[80%] mx-auto">
-          {data?.data.slice(0, 6).map((product) => (
+          {data?.slice(0, 6).map((product) => (
             <div key={product.pid} className="card w-96 bg-base-100 shadow-xl">
               <Link href={`/products/${product?._id}`}>
                 <figure>
@@ -35,7 +38,7 @@ const AllProducts = () => {
                 <h2 className="card-title">
                   {product?.productName}
                   <div className="badge badge-secondary">
-                    Price: {product?.price}
+                    TK: {product?.price}
                   </div>
                 </h2>
                 <div className="justify-end">
