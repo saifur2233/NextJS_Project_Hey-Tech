@@ -26,7 +26,7 @@ const AllProducts = () => {
         <p>Get Your Desired Product from Featured Category!</p>
       </div>
       <div className="pt-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-10 w-[80%] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-10 w-[100%] mx-auto">
           {data?.slice(0, 6).map((product) => (
             <div key={product.pid} className="card w-96 bg-base-100 shadow-xl">
               <Link href={`/products/${product?._id}`}>
